@@ -1,0 +1,31 @@
+{
+  "name": "mern-stack-react_node_js",
+  "type": "module",
+  "version": "1.0.0",
+  "main": "app.js",
+  "scripts": {
+    "start": "node back-end/app.js",
+    "dev": "SET NODE_ENV=DEVELOPMENT& nodemon back-end/app.js",
+    "prod": "SET NODE_ENV=PRODUCTION& nodemon back-end/app.js",
+    "seeder": "node back-end/seeder/seeder.js"
+  },
+  "author": "waleed",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "bcrypt": "^5.1.1",
+    "cloudinary": "^2.5.1",
+    "cookie-parser": "^1.4.7",
+    "dotenv": "^16.4.5",
+    "express": "^4.21.1",
+    "i": "^0.3.7",
+    "jsonwebtoken": "^9.0.2",
+    "mongoose": "^8.7.2",
+    "nodemailer": "^6.9.16",
+    "npm": "^10.9.0",
+    "stripe": "^17.3.1"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.7"
+  }
+}
